@@ -50,7 +50,7 @@ function validarCPF(cpf){
 
     if(validarCPF(cpfInput)){
         messageDiv.textContent = "CPF Válida";
-        messageDiv.className = "message sucess";
+        messageDiv.className = "message success";
     } else{
         messageDiv.textContent = "CPF Inválido";
         messageDiv.className ="message error";
