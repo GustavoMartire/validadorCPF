@@ -36,3 +36,36 @@ body{
 
 
 }
+
+.form-container button {
+    padding: 10px;
+    width: 100%;
+    background-color: yellowgreen;
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+/*estilização das mensagens de resultado */
+
+.message{
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.message.success{
+    background-color: aquamarine;
+    color: blue;
+}
+
+
+.message.error{
+    background-color: blueviolet;
+    color: tomato;
+}
